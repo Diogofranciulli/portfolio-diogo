@@ -11,7 +11,7 @@ function Nav() {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <nav className="flex justify-end p-4 bg-white shadow-lg space-x-8">
+    <nav className="flex w-full text-4xl font-bold justify-end p-4 bg-white shadow-lg space-x-8">
       <Link
         to="/"
         className={`${
@@ -42,7 +42,7 @@ function Nav() {
 
 function Footer() {
   return (
-    <footer className="mt-auto py-4 bg-white text-center flex justify-between items-center px-8">
+    <footer className="py-4 mt-auto w-f bg-white text-center flex justify-between items-center px-8">
       <p>copyright © 2024</p>
       <div className="flex space-x-4">
         <a href="https://github.com/Diogofranciulli" target="_blank" rel="noopener noreferrer">
@@ -58,36 +58,36 @@ function Footer() {
 
 function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
+    <div className="flex flex-col h-full min-h-screen p-8 bg-gray-50">
       <div className="flex flex-col items-center text-center md:flex-row md:text-left md:space-x-12">
-        <div className="md:w-1/3">
+        <div className="md:w-1/3 flex flex-col gap-10">
           <img
-            className="rounded-full w-40 h-40 mx-auto mb-4 border-4 border-blue-500"
+            className="rounded-full w-96 h-96 mb-28 mx-auto mb-4 border-4 border-blue-500"
             src={fotoDePerfil}
             alt="Foto de perfil"
           />
-          <h1 className="text-2xl font-bold text-blue-500 mb-2">Diogo Leles Fanciulli</h1>
+          <h1 className="text-5xl font-bold text-blue-500 mb-2">Diogo Leles Fanciulli</h1>
           <p className="text-blue-500 mb-1">
-            <a href="https://www.fiap.com.br" className="underline">FIAP</a> 
-            <span className='text-black font-bold'> - Engenharia de Software</span>
+            <a href="https://www.fiap.com.br" className="underline text-4xl">FIAP</a> 
+            <span className='text-black font-bold text-4xl'> - Engenharia de Software</span>
           </p>
           <p className="text-blue-500 mb-1">
-            <a href="https://www.itau.com.br" className="underline">Itaú</a> 
-            <span className='text-black font-bold'> - Jovem Aprendiz na área de dados e analytics</span>
+            <a href="https://www.itau.com.br" className="underline text-4xl">Itaú</a> 
+            <span className='text-black font-bold text-4xl'> - Jovem Aprendiz na área de dados e analytics</span>
           </p>
         </div>
 
-        <div className="md:w-2/3 flex flex-col space-y-8">
-          <div>
-            <h2 className="text-xl font-bold text-blue-500 mb-4">Um pouco sobre mim</h2>
-            <p className="max-w-lg mx-auto text-gray-700">
+        <div className="md:w-2/3 flex flex-col space-y-8 ml-12">
+          <div className=''>
+            <h2 className="text-5xl font-bold text-blue-500 mb-4">Um pouco sobre mim</h2>
+            <p className="max-w-lg text-3xl text-gray-700">
               Meu nome é Diogo Leles Franciulli, tenho 18 anos, estou cursando Engenharia de Software na FIAP e trabalho como Jovem Aprendiz no Itaú!
             </p>
           </div>
 
           <div>
-            <h2 className="text-xl font-bold text-blue-500 mb-4">Minhas Habilidades</h2>
-            <ul className="list-disc text-left mt-4 max-w-lg mx-auto text-gray-700">
+            <h2 className="text-5xl font-bold text-blue-500 mb-4">Minhas Habilidades</h2>
+            <ul className="list-disc text-3xl text-left mt-4 max-w-lg text-gray-700">
               <li>React</li>
               <li>JavaScript</li>
               <li>HTML</li>
