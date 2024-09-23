@@ -1,9 +1,16 @@
 function Contato() {
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      const email = e.target.email.value;
+      const message = e.target.message.value;
+      console.log(`Email: ${email}, Message: ${message}`);
+    };
+  
     return (
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-4">
-        <h1 className="flex justify-start text-4xl font-bold text-blue-500 mb-24">Me mande uma mensagem</h1>
+        <h1 className="text-2xl font-bold text-blue-500 mb-8">Me mande uma mensagem</h1>
         <div className="bg-white shadow-lg rounded-lg p-8 w-full max-w-md">
-          <form>
+          <form onSubmit={handleSubmit}>
             <div className="mb-4">
               <label htmlFor="email" className="block text-gray-700 mb-2">Email</label>
               <input

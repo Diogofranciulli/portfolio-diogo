@@ -60,24 +60,24 @@ function Home() {
   return (
     <div className="flex flex-col h-full min-h-screen p-8 bg-gray-50">
       <div className="flex flex-col items-center text-center md:flex-row md:text-left md:space-x-12">
-        <div className="md:w-1/3 flex flex-col gap-10">
+        <div className="flex flex-col gap-16">
           <img
-            className="rounded-full w-96 h-96 mb-28 mx-auto mb-4 border-4 border-blue-500"
+            className="rounded-full w-52 h-52 mb-5 mx-0 border-4 border-blue-500"
             src={fotoDePerfil}
             alt="Foto de perfil"
           />
-          <h1 className="text-5xl font-bold text-blue-500 mb-2">Diogo Leles Fanciulli</h1>
+          <h1 className="text-3xl font-bold text-blue-500 mb-2">Diogo Leles Fanciulli</h1>
           <p className="text-blue-500 mb-1">
-            <a href="https://www.fiap.com.br" className="underline text-4xl">FIAP</a> 
-            <span className='text-black font-bold text-4xl'> - Engenharia de Software</span>
+            <a href="https://www.fiap.com.br" className="underline text-3xl">FIAP</a> 
+            <span className='text-black font-bold text-3xl'> - Engenharia de Software</span>
           </p>
           <p className="text-blue-500 mb-1">
-            <a href="https://www.itau.com.br" className="underline text-4xl">Itaú</a> 
-            <span className='text-black font-bold text-4xl'> - Jovem Aprendiz na área de dados e analytics</span>
+            <a href="https://www.itau.com.br" className="underline text-3xl">Itaú</a> 
+            <span className='text-black font-bold text-3xl'> - Jovem Aprendiz na área de dados e analytics</span>
           </p>
         </div>
 
-        <div className="md:w-2/3 flex flex-col space-y-8 ml-12">
+        <div className="md:w-2/3 flex flex-col gap-16 mt-10 ml-12">
           <div className=''>
             <h2 className="text-5xl font-bold text-blue-500 mb-4">Um pouco sobre mim</h2>
             <p className="max-w-lg text-3xl text-gray-700">

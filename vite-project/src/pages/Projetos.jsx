@@ -1,6 +1,6 @@
 function Projetos() {
     const projects = [
-      { title: "Portfólio", description: "Portfólio academico", tech: "React • TailwindCSS • HTML", githubLink: "https://github.com/Diogofranciulli/portfolio-diogo", image: "https://via.placeholder.com/150" },
+      { title: "Portfólio", description: "Portfólio academico", tech: "React • TailwindCSS • HTML", githubLink: "https://github.com/Diogofranciulli/portfolio-diogo", image: "../assets/portfolio.jpg" },
 
       { title: "Blean", description: "Global solution do primeiro semestre FIAP", tech: "React • TailwindCSS • HTML • Node • Python • C++ • Arduino ", githubLink: "https://github.com/ryanbritodev/blean", image: "https://via.placeholder.com/150" },
 
