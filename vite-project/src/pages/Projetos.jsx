@@ -1,14 +1,6 @@
 import { Link } from 'react-router-dom';
 
-function Projetos() {
-    const projects = [
-      { title: "Portfólio", description: "Portfólio academico", tech: "React • TailwindCSS • HTML", githubLink: "https://github.com/Diogofranciulli/portfolio-diogo", image: "/assets/portfolio.jpg" },
-
-      { title: "Blean", description: "Global solution do primeiro semestre FIAP", tech: "React • TailwindCSS • HTML • Node • Python • C++ • Arduino ", githubLink: "https://github.com/ryanbritodev/blean", image: "/assets/blean.jpg" },
-
-      { title: "E-Way", description: "Sprint Tech Mahindra", tech: "React • TailwindCSS • HTML • Node • Python", githubLink: "https://github.com/ulipese/eway", image: "/assets/eway.jpg" },
-    ];
-  
+function Projetos({projects}) {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-4">
           <h1 className="text-2xl font-bold text-blue-500 mb-8">Meus projetos</h1>

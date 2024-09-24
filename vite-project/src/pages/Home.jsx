@@ -1,5 +1,3 @@
-import fotoDePerfil from '/assets/foto_de_perfil.jpg';
-
 function Home() {
     return (
       <div className="flex flex-col h-full min-h-screen p-8 bg-gray-50">
@@ -7,7 +5,7 @@ function Home() {
           <div className="flex flex-col gap-16">
             <img
               className="rounded-full w-52 h-52 mb-5 mx-0 border-4 border-blue-500"
-              src={fotoDePerfil}
+              src='/assets/foto_de_perfil.jpg'
               alt="Foto de perfil"
             />
             <h1 className="text-3xl font-bold text-blue-500 mb-2">Diogo Leles Fanciulli</h1>
