@@ -1,9 +1,8 @@
 import { BrowserRouter as Router, Route, Routes, Link, useLocation } from 'react-router-dom';
 import Projetos from './pages/Projetos';
 import Contato from './pages/Contato';
-import fotoDePerfil from './assets/foto_de_perfil.jpg';
-import githubIcon from './assets/iconmonstr-github-3.svg';
-import linkedinIcon from './assets/iconmonstr-linkedin-3.svg';
+import fotoDePerfil from '/assets/foto_de_perfil.jpg';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 function Nav() {
   const location = useLocation();
@@ -42,14 +41,14 @@ function Nav() {
 
 function Footer() {
   return (
-    <footer className="py-4 mt-auto w-f bg-white text-center flex justify-between items-center px-8">
+    <footer className="py-4 mt-auto w-full bg-white text-center flex justify-between items-center px-8">
       <p>copyright © 2024</p>
       <div className="flex space-x-4">
         <a href="https://github.com/Diogofranciulli" target="_blank" rel="noopener noreferrer">
-          <img src={githubIcon} alt="GitHub" className="w-6 h-6" />
+          <FaGithub className="w-6 h-6" />
         </a>
         <a href="https://linkedin.com/in/diogo-leles-franciulli" target="_blank" rel="noopener noreferrer">
-          <img src={linkedinIcon} alt="LinkedIn" className="w-6 h-6" />
+          <FaLinkedin className="w-6 h-6" />
         </a>
       </div>
     </footer>
