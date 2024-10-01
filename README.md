@@ -1,6 +1,6 @@
 # Portfolio Diogo
 
-![Portfolio Diogo]("/vite-project/public/assets/portfolio.jpg")
+![Portfolio Diogo](https://github.com/Diogofranciulli/portfolio-diogo/blob/main/vite-project/public/assets/portfolio.jpg?raw=true)
 
 ## Descrição do Projeto
 
