@@ -12,7 +12,7 @@ function Nav() {
       <Link
         to="/"
         className={`${
-          isActive('/') ? 'text-blue-500 border-b-2 border-blue-500' : 'text-black'
+          isActive('/') ? 'text-blue-500 underline' : 'text-black'
         }`}
       >
         Sobre mim
@@ -20,7 +20,7 @@ function Nav() {
       <Link
         to="/projetos"
         className={`${
-          isActive('/projetos') ? 'text-blue-500 border-b-2 border-blue-500' : 'text-black'
+          isActive('/projetos') ? 'text-blue-500 underline' : 'text-black'
         }`}
       >
         Projetos
@@ -28,7 +28,7 @@ function Nav() {
       <Link
         to="/contato"
         className={`${
-          isActive('/contato') ? 'text-blue-500 border-b-2 border-blue-500' : 'text-black'
+          isActive('/contato') ? 'text-blue-500 underline' : 'text-black'
         }`}
       >
         Contato
